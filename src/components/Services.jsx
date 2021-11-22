@@ -18,7 +18,7 @@ export default function Services() {
             <div className="service">
                 <img src={Services2} alt="Service Img" />
                 <p>
-                    He Printing and Typesetting the industry. <span>Lorem Ipsum</span>
+                    He Printing and Typesetting the industry. <span>Lorem Ipsum </span>
                     has been the Industry
                 </p>
                 <button>Read More</button>
@@ -26,7 +26,7 @@ export default function Services() {
             <div className="service">
                 <img src={Services1} alt="Service Img" />
                 <p>
-                    He Printing and Typesetting the industry. <span>Lorem Ipsum</span>
+                    He Printing and Typesetting the industry. <span>Lorem Ipsum </span>
                     has been the Industry
                 </p>
                 <button>Read More</button>
@@ -34,7 +34,7 @@ export default function Services() {
             <div className="service">
                 <img src={Services3} alt="Service Img" />
                 <p>
-                    He Printing and Typesetting the industry. <span>Lorem Ipsum</span>
+                    He Printing and Typesetting the industry. <span>Lorem Ipsum </span>
                     has been the Industry
                 </p>
                 <button>Read More</button>
@@ -65,6 +65,10 @@ const Section = styled.section`
                 line-height: 2rem;
                 font-size: 1.1rem;
                 letter-spacing: 0.1rem;
+            
+                span{
+                     color: tomato;
+                }
             }
             button{
                 padding: 0.6rem 3rem;
